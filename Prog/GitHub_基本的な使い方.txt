@@ -28,3 +28,18 @@
 	3）データの送信
 	$ git push origin master
 
+
+◆ブランチ作成時
+	1）新しいブランチを作る
+	$ git branch ブランチ名
+
+	2）今あるブランチを確認する
+	$ git branch
+
+	3）ブランチを移動する
+	$ git checkout ブランチ名
+
+	4）ブランチを結合（マージ）する
+	※$ git checkoutで，結合したいブランチに移動して…
+	$ git merge 取り込むブランチ名
+
